@@ -22,7 +22,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', function (req, res) {
-  res.send(data);
+  res.send(true);
 });
 
 app.post('/', (req, res) => {
