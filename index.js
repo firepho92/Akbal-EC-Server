@@ -5,7 +5,7 @@ var axios = require('axios');
 var bodyParser = require('body-parser');
 var data = [];
 
-server.listen(8000, () => {
+server.listen(80, () => {
 	console.log('listening on port ' + 8000)
 });
 // WARNING: app.listen(80) will NOT work here!
