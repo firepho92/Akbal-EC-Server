@@ -4,7 +4,7 @@ var io = require('socket.io')(server);
 var axios = require('axios');
 var bodyParser = require('body-parser');
 var data = [];
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8000;
 
 server.listen(port, () => {
 	console.log('listening on port ' + 8000)
